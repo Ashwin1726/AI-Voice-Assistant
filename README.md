@@ -201,7 +201,7 @@ AI-controlled productivity workflows
 
 🎙️ VOICE MODE
 
-<div align="center">
+<div align="center" >
 
 🎤  "Aesun, remind me to finish my project at 18:30"
 
