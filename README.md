@@ -240,7 +240,7 @@ Voice capabilities
 
 🛠️ TECH STACK
 
-<div align="center">
+
 
 AI / AGENT
 
@@ -263,7 +263,7 @@ FRONTEND
 
 <img src="https://skillicons.dev/icons?i=html,css,js" />
 
-</div>
+
 
 🚀 QUICK START
 
