@@ -1,498 +1,187 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05020d,35:7c3cff,70:b026ff,100:00f5ff&height=180&section=header&text=AESUN%20AI%20ASSISTANT&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Neon%20AI%20Command%20Center&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05020d,45:7c3cff,75:b026ff,100:00f5ff&height=170&section=header&text=AESUN%20AI%20ASSISTANT&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%7C%20VOICE%20%7C%20MEMORY%20%7C%20AUTOMATION&descAlignY=60&descSize=16" width="100%"/>
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=700&lines=THINK.+REMEMBER.+ACT.+AUTOMATE.;Agentic+AI+%7C+Voice+%7C+Memory+%7C+Automation;Your+Personal+AI+Command+Center" alt="AESUN"/>
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=21&pause=1000&color=00F5FF&center=true&vCenter=true&width=650&lines=THINK.+REMEMBER.+ACT.+AUTOMATE.;Your+Personal+AI+Command+Center" />
 
 <br/><br/>
 
-<a href="https://github.com/YOUR_USERNAME/AESUN-AI-ASSISTANT">
-<img src="https://img.shields.io/github/stars/YOUR_USERNAME/AESUN-AI-ASSISTANT?style=for-the-badge&logo=github&label=STARS&color=7c3cff" />
-</a>
-<a href="https://github.com/YOUR_USERNAME/AESUN-AI-ASSISTANT">
-<img src="https://img.shields.io/github/forks/YOUR_USERNAME/AESUN-AI-ASSISTANT?style=for-the-badge&logo=github&label=FORKS&color=00f5ff" />
-</a>
-<img src="https://img.shields.io/badge/STATUS-ONLINE-39ff9b?style=for-the-badge&logo=statuspage&logoColor=white" />
-<img src="https://img.shields.io/badge/AI-AGENTIC-b026ff?style=for-the-badge&logo=probot&logoColor=white" />
 
-<br/><br/>
 
-<table>
-<tr>
-<td align="center" width="170">
 
-🧠
 
-<b>AI ENGINE</b><br/>
-Gemini + Groq
 
-</td>
-<td align="center" width="170">
 
-🤖
-
-<b>AGENTS</b><br/>
-LangChain
-
-</td>
-<td align="center" width="170">
-
-🔎
-
-<b>MEMORY</b><br/>
-FAISS + Embeddings
-
-</td>
-<td align="center" width="170">
-
-🎙️
-
-<b>VOICE</b><br/>
-Speech + TTS
-
-</td>
-<td align="center" width="170">
-
-⚡
-
-<b>AUTOMATION</b><br/>
-Tasks + Reminders
-
-</td>
-</tr>
-</table>
 
 </div>
 
-<div align="center">
+⚡ What is AESUN?
 
-⚡ AESUN // COMMAND CENTER
+AESUN is a futuristic personal AI assistant designed as a gaming-style AI command center.
 
-A futuristic personal AI assistant engineered to understand, remember, reason and act.
+It combines AI conversation, agentic actions, semantic memory, voice interaction, tasks and reminders into one intelligent system.
 
-</div>
+🧠 Not just a chatbot — an AI that can remember and act.
 
-AESUN is not designed as a basic chatbot.
+✨ Features
 
-It combines AI conversation, agentic tool execution, semantic memory, voice interaction, task management and reminders into a single futuristic command-center experience.
+🧠 AI
 
-The frontend follows a gaming / cyberpunk HUD aesthetic with a glowing AI core, neon interface elements, live system metrics and glassmorphism panels.
+🤖 Agent
 
-<div align="center">
+🔎 Memory
 
-🎮 SYSTEM OVERVIEW
+Gemini-powered conversations
 
-                    ┌──────────────────────────┐
-                    │       👤 USER            │
-                    │   TEXT / VOICE COMMAND   │
-                    └────────────┬─────────────┘
-                                 │
-                                 ▼
-                    ┌──────────────────────────┐
-                    │      ⚡ AESUN CORE        │
-                    │   INPUT + CONTEXT ENGINE  │
-                    └────────────┬─────────────┘
-                                 │
-               ┌─────────────────┼─────────────────┐
-               │                 │                 │
-               ▼                 ▼                 ▼
-        ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-        │ 🧠 GEMINI   │   │ 🤖 AGENT    │   │ 🔎 MEMORY   │
-        │ AI RESPONSE │   │ GROQ +      │   │ EMBEDDINGS  │
-        │             │   │ LANGCHAIN   │   │ + FAISS     │
-        └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
-               │                 │                 │
-               └─────────────────┼─────────────────┘
-                                 ▼
-                    ┌──────────────────────────┐
-                    │      ⚡ AESUN ACTION      │
-                    │                          │
-                    │ 💬 Response              │
-                    │ 🎙️ Voice                │
-                    │ 📋 Task                  │
-                    │ ⏰ Reminder              │
-                    │ 🔎 Memory Search         │
-                    └──────────────────────────┘
+Groq + LangChain
 
-</div>
-
-✨ FEATURES
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-🧠 Intelligent AI
-
-Google Gemini powered conversations
-
-Groq-powered agent execution
-
-LangChain ReAct agent
+Sentence Transformers
 
 Context-aware responses
 
-Action-oriented AI workflows
-
-Offline fallback responses
-
-</td>
-<td width="50%" valign="top">
-
-🔎 Neural Memory
-
-Sentence Transformer embeddings
+Task automation
 
 FAISS vector search
 
-Semantic conversation retrieval
+Offline fallback
 
-Persistent conversation storage
+Reminder automation
 
-User context retrieval
+Conversation retrieval
 
-Meaning-based memory search
+🎙️ Voice
 
-</td>
-</tr>
+⚡ Productivity
 
-<tr>
-<td valign="top">
+🎮 UI
 
-🎙️ Voice Interface
-
-Speech-to-text
-
-Text-to-speech
-
-Wake-word activation
-
-Continuous listening mode
-
-Voice status animation
-
-Sleep / wake commands
-
-</td>
-<td valign="top">
-
-⚡ Productivity Engine
+Speech-to-Text
 
 Create tasks
 
-View tasks
+Neon gaming HUD
 
-Update task status
+Text-to-Speech
 
-Create reminders
+Manage tasks
 
-View reminders
+Animated AI Core
 
-AI-controlled productivity workflows
+Wake-word mode
 
-</td>
-</tr>
-</table>
+Smart reminders
 
-<div align="center">
+Glassmorphism
 
+🧠 Architecture
 
-🎙️ VOICE MODE
+        👤 USER
+       Text / Voice
+           │
+           ▼
+     ⚡ AESUN CORE
+           │
+     ┌─────┼─────┐
+     ▼     ▼     ▼
+  Gemini  Agent  Memory
+          Groq   FAISS
+       LangChain
+     └─────┼─────┘
+           ▼
+   ⚡ RESPONSE / ACTION
+    ├── 💬 Chat
+    ├── 🎙️ Voice
+    ├── 📋 Tasks
+    ├── ⏰ Reminders
+    └── 🔎 Memory
 
-<div align="center" >
+🎮 Interface
 
-🎤  "Aesun, remind me to finish my project at 18:30"
+╔══════════════════════════════════════════════╗
+║ ⚡ AESUN                         ● ONLINE     ║
+╠═══════════╦════════════════════╦═════════════╣
+║ NEURAL    ║                    ║ ACTIVE      ║
+║ INTERFACE ║     ◉ AESUN CORE   ║ TASKS       ║
+║           ║                    ║             ║
+║ CHAT      ║   AI ONLINE        ║ PRIORITY    ║
+║ TASKS     ║                    ║ ALERTS      ║
+║ ALERTS    ║  ASK AESUN...      ║             ║
+╚═══════════╩════════════════════╩═════════════╝
 
-             ↓
+Visual: Cyberpunk • Neon • Glassmorphism • AI HUD
 
-        ⚡ AESUN CORE
+🛠️ Tech Stack
 
-             ↓
+AI: Gemini • Groq • LangChain • Sentence Transformers • FAISS
 
-       🤖 Agent detects
-       reminder intent
+Backend: Python • Flask • REST API
 
-             ↓
+Voice: SpeechRecognition • pyttsx3
 
-        ⏰ Reminder saved
+Frontend: HTML • CSS • JavaScript
 
-             ↓
-
-🔊 "Reminder successfully created."
-
-</div>
-
-Voice capabilities
-
-🎤 Microphone input
-
-🧠 Voice command processing
-
-🔊 Spoken AI responses
-
-🟢 Wake-word mode
-
-🔴 Active listening indicator
-
-😴 Sleep mode
-
-🛠️ TECH STACK
-
-
-
-AI / AGENT
-
-<img src="https://skillicons.dev/icons?i=python" />
-<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" />
-<img src="https://img.shields.io/badge/FAISS-00A67E?style=for-the-badge" />
-
-BACKEND
-
-<img src="https://skillicons.dev/icons?i=python,flask" />
-
-VOICE
-
-<img src="https://img.shields.io/badge/SpeechRecognition-Voice-8b5cf6?style=for-the-badge" />
-<img src="https://img.shields.io/badge/pyttsx3-TTS-00f5ff?style=for-the-badge" />
-
-FRONTEND
-
-<img src="https://skillicons.dev/icons?i=html,css,js" />
-
-
-
-🚀 QUICK START
-
-01 — Clone
+🚀 Quick Start
 
 git clone https://github.com/YOUR_USERNAME/AESUN-AI-ASSISTANT.git
 cd AESUN-AI-ASSISTANT
 
-02 — Virtual Environment
-
-Windows
-
 python -m venv venv
 venv\Scripts\activate
 
-macOS / Linux
-
-python3 -m venv venv
-source venv/bin/activate
-
-03 — Install
-
 pip install -r requirements.txt
-
-04 — Configure API Keys
+python app.py
 
 Create .env:
 
-GEMINI_API_KEY=your_gemini_api_key
-GROQ_API_KEY=your_groq_api_key
+GEMINI_API_KEY=your_key
+GROQ_API_KEY=your_key
 
-05 — Launch
-
-python app.py
-
-Then open:
+Open:
 
 http://localhost:4000
 
-💬 COMMAND EXAMPLES
+💬 Try AESUN
 
-> Hello Aesun
+"Create a task to finish my AI project"
 
-> Create a task to finish my AI portfolio
+"Remind me to attend the meeting at 18:30"
 
-> Show my pending tasks
+"Show my pending tasks"
 
-> Mark my portfolio task as completed
+"What did we discuss about my previous project?"
 
-> Remind me to attend the meeting at 18:30
-
-> What did we discuss about my machine learning project?
-
-> Search my previous conversations about AI
-
-📁 PROJECT ARCHITECTURE
-
-AESUN-AI-ASSISTANT/
-│
-├── ⚡ Aesun_ai.py
-│      └── Core AI + Agent Engine
-│
-├── 🌐 app.py
-│      └── Flask API Server
-│
-├── 📦 requirements.txt
-│
-├── 🔐 .env
-│
-├── 🗃️ Aesun_data/
-│      ├── conversations.xlsx
-│      ├── tasks.xlsx
-│      ├── reminders.xlsx
-│      ├── vector_db.pkl
-│      └── faiss_index.idx
-│
-└── 🎮 static/
-       └── index.html
-
-🔌 API
-
-Method
-
-Endpoint
-
-Function
-
-POST
-
-/api/conversation
-
-AI conversation
-
-GET
-
-/api/tasks
-
-Get tasks
-
-POST
-
-/api/tasks
-
-Create task
-
-PUT
-
-/api/tasks/update
-
-Update task
-
-GET
-
-/api/tasks/all
-
-Get all tasks
-
-GET
-
-/api/reminders
-
-Get reminders
-
-POST
-
-/api/reminders
-
-Create reminder
-
-GET
-
-/api/conversations
-
-Conversation history
-
-POST
-
-/api/search
-
-Semantic search
-
-GET
-
-/api/status
-
-System status
-
-POST
-
-/api/voice/process
-
-Voice processing
-
-GET
-
-/api/user-context
-
-User context
-
-🔐 SECURITY
-
-⚠️ Never upload API keys or private user data to GitHub.
-
-Add this to .gitignore:
-
-.env
-venv/
-__pycache__/
-*.pyc
-
-Aesun_data/*.xlsx
-Aesun_data/*.pkl
-Aesun_data/*.idx
-
-If an API key has already been pushed to GitHub, revoke/regenerate it immediately.
-
-🗺️ ROADMAP
+🗺️ Roadmap
 
 [✓] AI Conversation
-[✓] Gemini Integration
-[✓] Groq Agent
-[✓] LangChain Tools
+[✓] Agentic AI
 [✓] Semantic Memory
-[✓] FAISS Search
-[✓] Voice Interaction
-[✓] Tasks
-[✓] Reminders
+[✓] Voice Assistant
+[✓] Tasks & Reminders
 [✓] Gaming UI
 
-[ ] Streaming Responses
-[ ] WebSocket Real-Time Mode
-[ ] Authentication
-[ ] Cloud Database
+[ ] Streaming AI
 [ ] Calendar Integration
-[ ] Email Automation
 [ ] Mobile App
-[ ] Desktop App
-[ ] Local LLM Support
-[ ] RAG Document Intelligence
+[ ] RAG Documents
+[ ] Local LLM
 
 <div align="center">
 
-👨‍💻 DEVELOPER
-
-<img src="https://img.shields.io/badge/Ashwin%20Kumar-AI%2FML%20Engineer-8b5cf6?style=for-the-badge" />
-
-<br/><br/>
+👨‍💻 Ashwin Kumar
 
 AI/ML Engineer • Full-Stack Developer
 
-Building intelligent systems that combine
-Artificial Intelligence + Automation + Voice + Modern Web Experiences
+Building intelligent systems with
+AI + Automation + Voice + Modern Web
+
+
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/ashwin1726/">
-<img src="https://img.shields.io/badge/LinkedIn-Ashwin%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+⚡ THINK. REMEMBER. ACT. AUTOMATE.
 
-<br/><br/>
-
-⚡ AESUN
-
-THINK. REMEMBER. ACT. AUTOMATE.
-
-<br/>
-
-⭐ Star this repository if AESUN impressed you.
+⭐ Star this repository if you like AESUN!
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,35:b026ff,70:7c3cff,100:05020d&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,35:b026ff,70:7c3cff,100:05020d&height=100&section=footer" width="100%"/>
