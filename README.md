@@ -1,277 +1,395 @@
 <div align="center">
 
-⚡ AESUN AI ASSISTANT
-
-Next-Generation Personal AI Command Center
-
-An intelligent, agentic AI assistant built with Python, Gemini, Groq, LangChain, voice interaction, semantic memory, task automation, and a futuristic web interface.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05020d,35:7c3cff,70:b026ff,100:00f5ff&height=180&section=header&text=AESUN%20AI%20ASSISTANT&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Neon%20AI%20Command%20Center&descAlignY=60&descSize=18" width="100%"/>
 
 <br/>
 
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=700&lines=THINK.+REMEMBER.+ACT.+AUTOMATE.;Agentic+AI+%7C+Voice+%7C+Memory+%7C+Automation;Your+Personal+AI+Command+Center" alt="AESUN"/>
 
+<br/><br/>
 
+<a href="https://github.com/YOUR_USERNAME/AESUN-AI-ASSISTANT">
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME/AESUN-AI-ASSISTANT?style=for-the-badge&logo=github&label=STARS&color=7c3cff" />
+</a>
+<a href="https://github.com/YOUR_USERNAME/AESUN-AI-ASSISTANT">
+<img src="https://img.shields.io/github/forks/YOUR_USERNAME/AESUN-AI-ASSISTANT?style=for-the-badge&logo=github&label=FORKS&color=00f5ff" />
+</a>
+<img src="https://img.shields.io/badge/STATUS-ONLINE-39ff9b?style=for-the-badge&logo=statuspage&logoColor=white" />
+<img src="https://img.shields.io/badge/AI-AGENTIC-b026ff?style=for-the-badge&logo=probot&logoColor=white" />
 
+<br/><br/>
 
+<table>
+<tr>
+<td align="center" width="170">
 
+🧠
 
+<b>AI ENGINE</b><br/>
+Gemini + Groq
 
-<br/>
+</td>
+<td align="center" width="170">
 
-🧠 Think. Remember. Act. Automate.
+🤖
 
-AESUN is designed to go beyond simple chatbot conversations by combining AI reasoning, memory, voice interaction, and productivity automation in one system.
+<b>AGENTS</b><br/>
+LangChain
+
+</td>
+<td align="center" width="170">
+
+🔎
+
+<b>MEMORY</b><br/>
+FAISS + Embeddings
+
+</td>
+<td align="center" width="170">
+
+🎙️
+
+<b>VOICE</b><br/>
+Speech + TTS
+
+</td>
+<td align="center" width="170">
+
+⚡
+
+<b>AUTOMATION</b><br/>
+Tasks + Reminders
+
+</td>
+</tr>
+</table>
 
 </div>
 
-🎮 Experience AESUN
+<div align="center">
 
-AESUN is built as a personal AI command center rather than a basic chat application.
+⚡ AESUN // COMMAND CENTER
 
-The system can understand normal conversations, use an agent for action-oriented requests, remember previous interactions through vector search, manage tasks and reminders, and interact through voice.
+A futuristic personal AI assistant engineered to understand, remember, reason and act.
 
-✨ Core Capabilities
+</div>
 
-Capability
+AESUN is not designed as a basic chatbot.
 
-What AESUN Does
+It combines AI conversation, agentic tool execution, semantic memory, voice interaction, task management and reminders into a single futuristic command-center experience.
 
-🧠 AI Conversation
+The frontend follows a gaming / cyberpunk HUD aesthetic with a glowing AI core, neon interface elements, live system metrics and glassmorphism panels.
 
-Generates contextual responses using Google Gemini
+<div align="center">
 
-🤖 Agentic AI
+🎮 SYSTEM OVERVIEW
 
-Uses LangChain + Groq for action-oriented requests
+                    ┌──────────────────────────┐
+                    │       👤 USER            │
+                    │   TEXT / VOICE COMMAND   │
+                    └────────────┬─────────────┘
+                                 │
+                                 ▼
+                    ┌──────────────────────────┐
+                    │      ⚡ AESUN CORE        │
+                    │   INPUT + CONTEXT ENGINE  │
+                    └────────────┬─────────────┘
+                                 │
+               ┌─────────────────┼─────────────────┐
+               │                 │                 │
+               ▼                 ▼                 ▼
+        ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+        │ 🧠 GEMINI   │   │ 🤖 AGENT    │   │ 🔎 MEMORY   │
+        │ AI RESPONSE │   │ GROQ +      │   │ EMBEDDINGS  │
+        │             │   │ LANGCHAIN   │   │ + FAISS     │
+        └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
+               │                 │                 │
+               └─────────────────┼─────────────────┘
+                                 ▼
+                    ┌──────────────────────────┐
+                    │      ⚡ AESUN ACTION      │
+                    │                          │
+                    │ 💬 Response              │
+                    │ 🎙️ Voice                │
+                    │ 📋 Task                  │
+                    │ ⏰ Reminder              │
+                    │ 🔎 Memory Search         │
+                    └──────────────────────────┘
 
-🗂️ Task Management
+</div>
 
-Create, view, filter, and update task status
+✨ FEATURES
 
-⏰ Smart Reminders
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Schedule reminders and trigger them automatically
+🧠 Intelligent AI
 
-🎙️ Speech-to-Text
+Google Gemini powered conversations
 
-Accepts voice commands through microphone input
+Groq-powered agent execution
 
-🔊 Text-to-Speech
+LangChain ReAct agent
 
-Responds using voice output
+Context-aware responses
 
-🧩 Wake Word
+Action-oriented AI workflows
 
-Supports "Aesun" activation in continuous mode
+Offline fallback responses
 
-🔎 Semantic Memory
+</td>
+<td width="50%" valign="top">
 
-Searches previous conversations using embeddings + FAISS
+🔎 Neural Memory
 
-👤 User Context
+Sentence Transformer embeddings
 
-Tracks preferences, frequent topics, and conversation history
+FAISS vector search
 
-🌐 Web Dashboard
+Semantic conversation retrieval
 
-Flask-powered futuristic AI interface
+Persistent conversation storage
 
-💾 Persistent Storage
+User context retrieval
 
-Stores conversations, tasks, reminders, and vector data
+Meaning-based memory search
 
-🧠 How AESUN Works
+</td>
+</tr>
 
-                         ┌──────────────────────┐
-                         │      USER INPUT      │
-                         │   Text / Voice       │
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │    AESUN ENGINE      │
-                         │  Input Processing    │
-                         └──────────┬───────────┘
-                                    │
-                   ┌────────────────┴────────────────┐
-                   │                                 │
-                   ▼                                 ▼
-          ┌──────────────────┐              ┌──────────────────┐
-          │  Normal Query    │              │ Action / Memory │
-          │     Gemini       │              │  Groq + Agent   │
-          └────────┬─────────┘              └────────┬─────────┘
-                   │                                 │
-                   └────────────────┬────────────────┘
-                                    ▼
-                         ┌──────────────────────┐
-                         │   Context + Memory   │
-                         │ Sentence Transformer │
-                         │       + FAISS        │
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │   RESPONSE / ACTION  │
-                         │ Chat • Voice • Task  │
-                         │ Reminder • Search    │
-                         └──────────────────────┘
+<tr>
+<td valign="top">
 
-🚀 What Makes AESUN Different?
+🎙️ Voice Interface
 
-01 — Context-Aware Conversations
+Speech-to-text
 
-AESUN maintains a short conversational chain for follow-up interactions and stores conversations for later retrieval.
+Text-to-speech
 
-02 — Agentic Task Execution
+Wake-word activation
 
-Action-oriented requests can be routed through a LangChain ReAct agent powered by Groq.
+Continuous listening mode
 
-The agent has tools for:
+Voice status animation
 
-Add tasks
+Sleep / wake commands
 
-Get tasks
+</td>
+<td valign="top">
 
-List tasks
+⚡ Productivity Engine
+
+Create tasks
+
+View tasks
 
 Update task status
 
-Add reminders
+Create reminders
 
-Get reminders
+View reminders
 
-Search previous conversations
+AI-controlled productivity workflows
 
-Retrieve user context
+</td>
+</tr>
+</table>
 
-03 — Long-Term Semantic Memory
+<div align="center">
 
-Conversation data is converted into embeddings using:
+🌌 AESUN UI
 
-Sentence Transformers
-        ↓
+CYBERPUNK × GAMING × AI
+
+</div>
+
+The interface is designed like an AI gaming command center instead of a traditional dashboard.
+
+╔════════════════════════════════════════════════════════════════════╗
+║  ⚡ AESUN                                      ● AESUN ONLINE      ║
+╠═══════════════╦════════════════════════════════╦═══════════════════╣
+║               ║                                ║                   ║
+║  NEURAL       ║          ◉ AESUN CORE          ║   ACTIVE TASKS    ║
+║  INTERFACE    ║       ╱  ◌  ◌  ◌  ╲          ║   ─────────────   ║
+║               ║                                ║   ▸ Project       ║
+║  CONVERSATION ║          AI ONLINE             ║   ▸ Portfolio     ║
+║               ║                                ║                   ║
+║  TASKS        ║     ┌──────────────────┐       ║   PRIORITY        ║
+║               ║     │ ASK AESUN...     │       ║   ALERTS           ║
+║  PRIORITY     ║     └──────────────────┘       ║   ─────────────   ║
+║  ALERTS       ║                                ║   ▸ Backup         ║
+║               ║  CPU ▰▰▰▰░  RAM ▰▰▰░░         ║   ▸ Neural Scan    ║
+╚═══════════════╩════════════════════════════════╩═══════════════════╝
+
+🎨 Visual System
+
+Element
+
+Design
+
+🌑 Background
+
+Midnight / Cyber Black
+
+🟣 Primary
+
+Electric Violet
+
+🩵 Secondary
+
+Neon Cyan
+
+💗 Accent
+
+Magenta
+
+🟢 Status
+
+Neon Green
+
+🧊 Panels
+
+Glassmorphism
+
+🔮 Core
+
+Animated AI Reactor
+
+⚡ Effects
+
+Glow + HUD + Neon
+
+🧩 AI AGENT TOOLS
+
+AESUN can move from conversation → reasoning → action.
+
+                 ┌─────────────────────┐
+                 │     🤖 AESUN AGENT  │
+                 └──────────┬──────────┘
+                            │
+       ┌────────────────────┼────────────────────┐
+       ▼                    ▼                    ▼
+  📋 TASK TOOLS       ⏰ REMINDER TOOLS     🔎 MEMORY TOOLS
+       │                    │                    │
+   add_task             add_reminder       search_conversations
+   get_tasks            get_reminders       get_user_context
+   list_tasks
+   update_task
+
+Available actions
+
+add_task()
+get_tasks()
+list_tasks()
+update_task()
+
+add_reminder()
+get_reminders()
+
+search_conversations()
+get_user_context()
+
+🔎 NEURAL MEMORY
+
+AESUN uses semantic search to retrieve previous conversations.
+
+Conversation
+     │
+     ▼
+Sentence Transformer
+     │
+     ▼
 all-MiniLM-L6-v2
-        ↓
-FAISS Vector Index
-        ↓
-Semantic Conversation Search
+     │
+     ▼
+Vector Embedding
+     │
+     ▼
+FAISS Index
+     │
+     ▼
+Semantic Retrieval
+     │
+     ▼
+Relevant Context → AESUN
 
-This allows AESUN to retrieve conversations based on meaning, rather than relying only on exact keyword matching.
+This allows AESUN to search by meaning, not only exact keywords.
 
-04 — Voice Interaction
+🎙️ VOICE MODE
 
-AESUN supports:
+<div align="center">
 
-🎙️ Speech recognition
+🎤  "Aesun, remind me to finish my project at 18:30"
 
-🔊 Text-to-speech
+             ↓
 
-🟢 Wake-word activation
+        ⚡ AESUN CORE
 
-😴 Sleep/deactivation command
+             ↓
 
-🔄 Continuous listening mode
+       🤖 Agent detects
+       reminder intent
 
-Wake word:
+             ↓
 
-Aesun
+        ⏰ Reminder saved
 
-Sleep command:
+             ↓
 
-Aesun go back to sleep
+🔊 "Reminder successfully created."
 
-🖥️ Tech Stack
+</div>
 
-AI / Machine Learning
+Voice capabilities
 
-Google Gemini
+🎤 Microphone input
 
-Groq
+🧠 Voice command processing
 
-LangChain
+🔊 Spoken AI responses
 
-Sentence Transformers
+🟢 Wake-word mode
 
-FAISS
+🔴 Active listening indicator
 
-Backend
+😴 Sleep mode
 
-Python
+🛠️ TECH STACK
 
-Flask
+<div align="center">
 
-Flask-CORS
+AI / AGENT
 
-REST API
+<img src="https://skillicons.dev/icons?i=python" />
+<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" />
+<img src="https://img.shields.io/badge/FAISS-00A67E?style=for-the-badge" />
 
-Voice
+BACKEND
 
-SpeechRecognition
+<img src="https://skillicons.dev/icons?i=python,flask" />
 
-PyAudio
+VOICE
 
-pyttsx3
+<img src="https://img.shields.io/badge/SpeechRecognition-Voice-8b5cf6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/pyttsx3-TTS-00f5ff?style=for-the-badge" />
 
-Data
+FRONTEND
 
-Pandas
+<img src="https://skillicons.dev/icons?i=html,css,js" />
 
-NumPy
+</div>
 
-Excel / XLSX
+🚀 QUICK START
 
-Pickle
-
-FAISS index
-
-Frontend
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Glassmorphism / futuristic HUD UI
-
-Neon gaming-style visual system
-
-📁 Project Structure
-
-Ai Assistent (AESUN)/
-│
-├── Aesun_ai.py
-│   └── Core AI engine
-│
-├── app.py
-│   └── Flask backend + REST APIs
-│
-├── requirements.txt
-│   └── Python dependencies
-│
-├── .env
-│   └── API credentials
-│
-├── Aesun_data/
-│   ├── conversations.xlsx
-│   ├── tasks.xlsx
-│   ├── reminders.xlsx
-│   ├── tasks.txt
-│   ├── vector_db.pkl
-│   └── faiss_index.idx
-│
-└── static/
-    └── index.html
-
-⚠️ Do not commit .env, API keys, personal conversation data, or generated database files to a public repository.
-
-⚙️ Installation
-
-1. Clone the repository
+01 — Clone
 
 git clone https://github.com/YOUR_USERNAME/AESUN-AI-ASSISTANT.git
 cd AESUN-AI-ASSISTANT
 
-2. Create a virtual environment
+02 — Virtual Environment
 
 Windows
 
@@ -283,99 +401,108 @@ macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
 
-3. Install dependencies
+03 — Install
 
 pip install -r requirements.txt
 
-Depending on your operating system, PyAudio may require additional system-level audio dependencies.
+04 — Configure API Keys
 
-🔐 Environment Variables
-
-Create a .env file in the project root:
+Create .env:
 
 GEMINI_API_KEY=your_gemini_api_key
 GROQ_API_KEY=your_groq_api_key
 
-Never expose API keys
-
-Do not put real API keys directly inside:
-
-Aesun_ai.py
-
-app.py
-
-index.html
-
-GitHub commits
-
-Recommended .gitignore:
-
-.env
-venv/
-__pycache__/
-*.pyc
-
-Aesun_data/*.xlsx
-Aesun_data/*.pkl
-Aesun_data/*.idx
-
-▶️ Run AESUN
-
-Start the Flask server:
+05 — Launch
 
 python app.py
 
-The backend runs on:
+Then open:
 
 http://localhost:4000
 
-Open the AESUN interface in your browser:
+💬 COMMAND EXAMPLES
 
-http://localhost:4000
+> Hello Aesun
 
-🔌 API Endpoints
+> Create a task to finish my AI portfolio
+
+> Show my pending tasks
+
+> Mark my portfolio task as completed
+
+> Remind me to attend the meeting at 18:30
+
+> What did we discuss about my machine learning project?
+
+> Search my previous conversations about AI
+
+📁 PROJECT ARCHITECTURE
+
+AESUN-AI-ASSISTANT/
+│
+├── ⚡ Aesun_ai.py
+│      └── Core AI + Agent Engine
+│
+├── 🌐 app.py
+│      └── Flask API Server
+│
+├── 📦 requirements.txt
+│
+├── 🔐 .env
+│
+├── 🗃️ Aesun_data/
+│      ├── conversations.xlsx
+│      ├── tasks.xlsx
+│      ├── reminders.xlsx
+│      ├── vector_db.pkl
+│      └── faiss_index.idx
+│
+└── 🎮 static/
+       └── index.html
+
+🔌 API
 
 Method
 
 Endpoint
 
-Purpose
+Function
 
 POST
 
 /api/conversation
 
-Process AI conversation
+AI conversation
 
 GET
 
 /api/tasks
 
-Retrieve tasks
+Get tasks
 
 POST
 
 /api/tasks
 
-Create a task
+Create task
 
 PUT
 
 /api/tasks/update
 
-Update task status
+Update task
 
 GET
 
 /api/tasks/all
 
-Retrieve all tasks
+Get all tasks
 
 GET
 
 /api/reminders
 
-Retrieve reminders
+Get reminders
 
 POST
 
@@ -387,13 +514,13 @@ GET
 
 /api/conversations
 
-Retrieve conversation history
+Conversation history
 
 POST
 
 /api/search
 
-Semantic conversation search
+Semantic search
 
 GET
 
@@ -405,173 +532,84 @@ POST
 
 /api/voice/process
 
-Voice processing endpoint
+Voice processing
 
 GET
 
 /api/user-context
 
-Retrieve user context
+User context
 
-💬 Example Commands
+🔐 SECURITY
 
-Try asking AESUN:
+⚠️ Never upload API keys or private user data to GitHub.
 
-Hello Aesun
+Add this to .gitignore:
 
-Create a task to finish my AI project
+.env
+venv/
+__pycache__/
+*.pyc
 
-Show my pending tasks
+Aesun_data/*.xlsx
+Aesun_data/*.pkl
+Aesun_data/*.idx
 
-Mark task 1 as completed
+If an API key has already been pushed to GitHub, revoke/regenerate it immediately.
 
-Remind me to attend the meeting at 18:30
+🗺️ ROADMAP
 
-What did we discuss about my previous project?
+[✓] AI Conversation
+[✓] Gemini Integration
+[✓] Groq Agent
+[✓] LangChain Tools
+[✓] Semantic Memory
+[✓] FAISS Search
+[✓] Voice Interaction
+[✓] Tasks
+[✓] Reminders
+[✓] Gaming UI
 
-Search my previous conversations about machine learning
-
-🧩 Agent Tools
-
-AESUN's agent can interact with its internal productivity and memory tools:
-
-┌─────────────────────────────┐
-│       AESUN AGENT           │
-├─────────────────────────────┤
-│ add_task                    │
-│ get_tasks                   │
-│ list_tasks                  │
-│ update_task                 │
-│ add_reminder                │
-│ get_reminders               │
-│ search_conversations        │
-│ get_user_context            │
-└─────────────────────────────┘
-
-This enables AESUN to take actions, not just generate text.
-
-💾 Data & Memory
-
-AESUN persists information using local files.
-
-Conversations
-
-Aesun_data/conversations.xlsx
-
-Tasks
-
-Aesun_data/tasks.xlsx
-
-Reminders
-
-Aesun_data/reminders.xlsx
-
-Semantic Memory
-
-Aesun_data/vector_db.pkl
-Aesun_data/faiss_index.idx
-
-This allows the assistant to preserve useful information between application sessions.
-
-🎨 Interface
-
-The web interface is designed as a futuristic AI command center with:
-
-⚡ Neon gaming aesthetics
-
-🔮 Animated AI core
-
-🧊 Glassmorphism panels
-
-🎙️ Voice interaction indicator
-
-📊 System metrics
-
-📋 Live task panel
-
-🚨 Priority reminder panel
-
-🌌 Dark cyber interface
-
-Tip: Add your best UI screenshot/GIF here after uploading it to the repository.
-
-![AESUN Dashboard](./assets/aesun-dashboard.png)
-
-🛡️ Security Notes
-
-AESUN uses external AI services and local persistent data.
-
-Before publishing the repository:
-
-Remove all real API keys.
-
-Add .env to .gitignore.
-
-Do not upload private conversation history.
-
-Do not upload personal reminders/tasks.
-
-Do not publish private credentials.
-
-Regenerate any API key that has accidentally been exposed.
-
-🗺️ Future Improvements
-
-Potential upgrades for the next version:
-
-Streaming AI responses
-
-Real-time WebSocket communication
-
-Authentication & user profiles
-
-Cloud database
-
-Better multilingual voice support
-
-Advanced memory management
-
-Mobile application
-
-Desktop application
-
-More agent tools
-
-Calendar integration
-
-Email automation
-
-Smart home integrations
-
-Local LLM support
-
-RAG document assistant
-
-GPU-accelerated local inference
-
-👨‍💻 Developer
+[ ] Streaming Responses
+[ ] WebSocket Real-Time Mode
+[ ] Authentication
+[ ] Cloud Database
+[ ] Calendar Integration
+[ ] Email Automation
+[ ] Mobile App
+[ ] Desktop App
+[ ] Local LLM Support
+[ ] RAG Document Intelligence
 
 <div align="center">
 
-Ashwin Kumar
+👨‍💻 DEVELOPER
+
+<img src="https://img.shields.io/badge/Ashwin%20Kumar-AI%2FML%20Engineer-8b5cf6?style=for-the-badge" />
+
+<br/><br/>
 
 AI/ML Engineer • Full-Stack Developer
 
-Building intelligent systems that combine AI, automation, voice interaction, and modern web technologies.
+Building intelligent systems that combine
+Artificial Intelligence + Automation + Voice + Modern Web Experiences
 
-<br/>
+<br/><br/>
 
+<a href="https://www.linkedin.com/in/ashwin1726/">
+<img src="https://img.shields.io/badge/LinkedIn-Ashwin%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-
-
-</div>
-
-<div align="center">
+<br/><br/>
 
 ⚡ AESUN
 
-"Think. Remember. Act. Automate."
+THINK. REMEMBER. ACT. AUTOMATE.
 
-⭐ If you find this project interesting, consider giving it a star!
+<br/>
+
+⭐ Star this repository if AESUN impressed you.
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,35:b026ff,70:7c3cff,100:05020d&height=120&section=footer" width="100%"/>
