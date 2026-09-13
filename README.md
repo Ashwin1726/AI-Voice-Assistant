@@ -344,36 +344,7 @@ Aesun go back to sleep
 </tbody>
 </table>
 
-<div align="center">
 
-📁 PROJECT STRUCTURE
-
-</div>
-
-AESUN AI ASSISTANT
-│
-├── Aesun_ai.py
-│   └── Core AI / Agent Engine
-│
-├── app.py
-│   └── Flask Backend + REST APIs
-│
-├── requirements.txt
-│   └── Python Dependencies
-│
-├── .env
-│   └── API Credentials
-│
-├── Aesun_data/
-│   ├── conversations.xlsx
-│   ├── tasks.xlsx
-│   ├── reminders.xlsx
-│   ├── tasks.txt
-│   ├── vector_db.pkl
-│   └── faiss_index.idx
-│
-└── static/
-    └── index.html
 
 <div align="center">
 
