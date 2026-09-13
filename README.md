@@ -202,37 +202,7 @@ UI Concept: Dark cyberpunk environment + neon violet + electric cyan + magenta e
 </tr>
 </table>
 
-<div align="center">
 
-🔥 AI PIPELINE
-
-</div>
-
-USER
-  │
-  ├── 🎙️ Voice Input
-  │
-  ▼
-AESUN INPUT PROCESSOR
-  │
-  ├── Normal Conversation ───────► Gemini
-  │
-  ├── Action Request ─────────────► Groq + LangChain Agent
-  │
-  └── Memory Request ─────────────► Sentence Transformers
-                                      │
-                                      ▼
-                                   FAISS
-                                      │
-                                      ▼
-                              Relevant Context
-                                      │
-                                      ▼
-                             AESUN RESPONSE
-                                      │
-                       ┌──────────────┴──────────────┐
-                       ▼                             ▼
-                  💬 TEXT RESPONSE              🔊 VOICE RESPONSE
 
 <div align="center">
 
